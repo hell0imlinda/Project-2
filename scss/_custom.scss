@@ -1,0 +1,22 @@
+// Bootstrap overrides
+//
+// Copy variables from `_variables.scss` to this file to override default values
+// without modifying source files.
+
+// Fonts
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif: 'Quicksand', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif ;
+$font-family-serif:      Georgia, "Times New Roman", Times, serif ;
+$font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace ;
+$font-family-base:       $font-family-sans-serif ;
+
+// Custom Font Weights
+$font-weight-300: 300;
+$font-weight-400: 400;
+$font-weight-500: 500;
+$font-weight-700: 700;
+
+
+$font-weight-bold: $font-weight-300;
