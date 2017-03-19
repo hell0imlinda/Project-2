@@ -1,23 +1,50 @@
 // custom classes //
 
-.welcome {
-	background-image: url("images/montereypark.jpeg");
+body {
+	background: $gradient;
+}
+
+
+
+.bg-end {
 	height: 100vh;
+	background-size: cover;
+	}
+
+.vh-content {
+	background-size: cover;
+	min-height: 100vh;
+
 }
 
-.representatives{
-	height: 100vh;	
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
-.local {
-	height: 100vh;
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.state {
-	height: 100vh;}
+.btn-container{
+	margin-left:300px;
 
-.federal {
-	height: 100vh;}
+}
 
-.end {
-	height: 100vh;}
+
+.flex {
+  background: #eaeaea;
+  display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+  height: 600px;
+}
+

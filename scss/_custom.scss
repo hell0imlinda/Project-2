@@ -21,16 +21,18 @@ $font-weight-700: 700;
 
 $font-weight-bold: $font-weight-300;
 
-
-
+// colors
  $white: white;
+
+
+
+
 // Jumbotron
 
 
- $jumbotron-bg: $white;
 
 
-
+// headings
 
 $headings-color: $white;
 
@@ -39,3 +41,4 @@ $headings-color: $white;
 $brand-primary: $white;
 
 
+$gradient: linear-gradient(to bottom, #29c0ce 0%,#e8a035 18%,#e8a035 22%,#29c0ce 35%,#e8a035 51%,#e8a035 55%,#29c0ce 67%,#e8a035 82%,#e8a035 84%,#29c0ce 100%);

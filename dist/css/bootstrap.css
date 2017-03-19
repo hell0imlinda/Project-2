@@ -4936,7 +4936,7 @@ a.badge:focus, a.badge:hover {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: white;
+  background-color: none !important;
   border-radius: 0.3rem;
 }
 
@@ -4947,14 +4947,14 @@ a.badge:focus, a.badge:hover {
 }
 
 .jumbotron-hr {
-  border-top-color: #e6e6e6;
+  border-top-color: #d0d5d8;
 }
 
 .jumbotron-fluid {
   padding-right: 0;
   padding-left: 0;
   border-radius: 0;
-  background-color: #d91720;
+  background-color: none !important;
 }
 
 .alert {
@@ -9329,28 +9329,61 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   }
 }
 
-.welcome {
-  background-image: url("images/montereypark.jpeg");
-  height: 100vh;
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#29c0ce), color-stop(18%, #e8a035), color-stop(22%, #e8a035), color-stop(35%, #29c0ce), color-stop(51%, #e8a035), color-stop(55%, #e8a035), color-stop(67%, #29c0ce), color-stop(82%, #e8a035), color-stop(84%, #e8a035), to(#29c0ce));
+  background: -webkit-linear-gradient(top, #29c0ce 0%, #e8a035 18%, #e8a035 22%, #29c0ce 35%, #e8a035 51%, #e8a035 55%, #29c0ce 67%, #e8a035 82%, #e8a035 84%, #29c0ce 100%);
+  background: -o-linear-gradient(top, #29c0ce 0%, #e8a035 18%, #e8a035 22%, #29c0ce 35%, #e8a035 51%, #e8a035 55%, #29c0ce 67%, #e8a035 82%, #e8a035 84%, #29c0ce 100%);
+  background: linear-gradient(to bottom, #29c0ce 0%, #e8a035 18%, #e8a035 22%, #29c0ce 35%, #e8a035 51%, #e8a035 55%, #29c0ce 67%, #e8a035 82%, #e8a035 84%, #29c0ce 100%);
 }
 
-.representatives {
+.bg-end {
   height: 100vh;
+  -webkit-background-size: cover;
+          background-size: cover;
 }
 
-.local {
-  height: 100vh;
+.vh-content {
+  -webkit-background-size: cover;
+          background-size: cover;
+  min-height: 100vh;
 }
 
-.state {
-  height: 100vh;
+.aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
-.federal {
-  height: 100vh;
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.end {
-  height: 100vh;
+.btn-container {
+  margin-left: 300px;
+}
+
+.flex {
+  background: #eaeaea;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  height: 600px;
 }
 /*# sourceMappingURL=bootstrap.css.map */
