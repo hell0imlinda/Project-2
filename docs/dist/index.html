@@ -1,231 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Project 2</title>
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lobster|Quicksand:300,400,500,700" rel="stylesheet">
-	<meta content="IE=edge" http-equiv="X-UA-Compatible">
-	<meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta charset="UTF-8">
+    <title>Project 2</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Quicksand:300,400,500,700" rel="stylesheet">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <script type="text/javascript" src="js/jquery-3.2.0.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollify.min.js"></script>
+    <script>
+    $(function() {
+        $.scrollify({
+            section: ".scroll",
+
+        });
+    });
+    </script>
 </head>
+
 <body>
-	<!--begin welcome-->
-	<div id="welcome">
-		<div class="bg-welcome jumbotron jumbotron-fluid mb-0 vh-content">
-			<div class="container container-fluid">
-				<div class="text-center">
-					<img alt="Monterey Park" src="images/montereypark.png">
-				</div>
-				<br>
-				<p class="text-justify text-center">Welcome to the representative directory for the city of Monterey Park.<br>
-				On this website you will be able to find the contact information for the local, state, and federal representatives.<br>
-				<br>
-				<br>
-				<br>
-				</p>
-				<div class="text-center">
-					<a href="#representatives"><img alt="go down" src="images/button.png"></a>
-				</div>
-			</div>
-		</div>
-	</div><!--end welcome-->
-	<!--begin representatives-->
-	<div id="representatives">
-		<div class="bg-representatives jumbotron jumbotron-fluid mb-0 vh-content">
-			<div class="container container-fluid">
-				<h2 class="text-center">REPRESENTATIVES</h2><br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<h1 class="text-center"><a href="#local">Local</a> | <a href="#state">State</a> | <a href="#federal">Federal</a></h1><br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<div class="text-center">
-					<a href="#local"><img alt="go down" src="images/button.png"></a>
-				</div>
-			</div>
-		</div>
-	</div><!--end representatives-->
-	<!--begin local-->
-	<div id="local">
-		<div class="bg-local jumbotron jumbotron-fluid mb-0 vh-content">
-			<h2 class="text-center">LOCAL</h2>
-			<div class="container">
-				<!--media 1-->
-				<br>
-				<div class="d-flex flex-row justify-content-around flex-wrap p-3">
-					<div class="media">
-						<div class="media-left media-middle">
-							<img alt="Ed Chau" class="media-object" src="images/ec.jpg">
-							<div class="media-body text-center">
-								<small><strong>Ed Chau</strong></small><br>
-								<small><strong>Assemblymember, 49th District</strong></small><br>
-								<small><small>State Capitol</small> | <small>P.O. Box 942849<br>
+    <!--begin welcome-->
+    <div id="welcome" class="scroll">
+        <div class="bg-welcome jumbotron jumbotron-fluid mb-0 vh-content">
+            <div class="text-center">
+                <img alt="Monterey Park" src="images/montereypark.png">
+            </div>
+            <br>
+            <p class="text-justify text-center">Welcome to the representative directory for the city of Monterey Park.
+                <br> On this website you will be able to find the contact information for the local, state, and federal representatives for our city.
+                <br>
+                <br>
+                <br>
+                <br>
+            </p>
+            <div class="text-center">
+                <a href="#representatives"><img alt="go down" src="images/button.png"></a>
+            </div>
+        </div>
+    </div>
+    <!--end welcome-->
+    <!--begin representatives-->
+    <div id="representatives" class="scroll bg-representatives d-flex flex-column  jumbotron jumbotron-fluid mb-0 vh-content" style="font-family:"bebas;">
+            <h2 class="text-center" style="padding-bottom: 200px;">REPRESENTATIVES</h2>
+            <div class=" align-self-center">
+                <h1 class="text-center" style="padding-bottom: 250px;"><a href="#local">Local</a> | <a href="#state">State</a> | <a href="#federal">Federal</a></h1>
+            </div>
+            <div class="text-center">
+                <a href="#local"><img alt="go down" src="images/button.png"></a>
+            </div>
+
+    </div>
+    <!--end representatives-->
+    <!--begin local-->
+    <div id="local" class="scroll">
+        <div class="bg-local jumbotron jumbotron-fluid mb-0 vh-content">
+            <h2 class="text-center">LOCAL</h2>
+            <div class="container">
+                <!--media 1-->
+                <br>
+                <div class="d-flex flex-row justify-content-around flex-wrap p-3">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img alt="Ed Chau" class="media-object" src="images/ec.jpg">
+                            <div class="media-body text-center">
+                                <small><strong>Ed Chau</strong></small>
+                                <br>
+                                <small><strong>Assemblymember, 49th District</strong></small>
+                                <br>
+                                <small><small>State Capitol</small> | <small>P.O. Box 942849<br>
 								Sacramento, CA 94249-0049<br>
 								Ph: 916-319-2049</small> | <small>Fx: 916-319-2149<br>
-								<em>District Office</em></small><br>
-								<small>1255 Corporate Center Drive, Suite 306<br>
+								<em>District Office</em></small>
+                                <br>
+                                <small>1255 Corporate Center Drive, Suite 306<br>
 								Monterey Park, CA 91754<br>
-								Ph: 323-264-4949</small> | <small>Fx: 323-264-4916</small><br>
-								<small><a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD49">Email Form</a></small> | <small><a href="https://a49.asmdc.org/">Website</a></small></small>
-							</div><br>
-							<div class="social-media text-center">
-								<a href="https://www.facebook.com/AssemblymemberEdChau"><img alt="facebook" src="images/facebook.png"></a>
-							</div>
-						</div>
-					</div><!--end media 1-->
-					<!--media 2-->
-					<div class="d-flex flex-row justify-content-around flex-wrap p-3">
-						<div class="media">
-							<div class="media-left media-middle">
-								<img alt="Hilda Solis" class="media-object" src="images/hs.jpg">
-								<div class="media-body text-center">
-									<small><strong>Hilda Solis</strong><br></small> <small><strong>Board of Supervisors, 1st District</strong></small><br>
-									<small><small>Kenneth Hahn Hall of Administration | Room 856<br>
+								Ph: 323-264-4949</small> | <small>Fx: 323-264-4916</small>
+                                <br>
+                                <small><a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD49">Email Form</a></small> | <small><a href="https://a49.asmdc.org/">Website</a></small></small>
+                            </div>
+                            <br>
+                            <div class="social-media text-center">
+                                <a href="https://www.facebook.com/AssemblymemberEdChau"><img alt="facebook" src="images/facebook.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end media 1-->
+                    <!--media 2-->
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img alt="Hilda Solis" class="media-object" src="images/hs.jpg">
+                            <div class="media-body text-center">
+                                <small><strong>Hilda Solis</strong><br></small> <small><strong>Board of Supervisors, 1st District</strong></small>
+                                <br>
+                                <small><small>Kenneth Hahn Hall of Administration | Room 856<br>
 									500 W. Temple St, Los Angeles, CA 90012<br>
 									Ph: 213-974-4111 | Fx: 323-887-7286<br>
 									<em>East Los Angeles Field Office</em><br>
 									4801 East 3rd Street, Los Angeles, CA 90022<br>
-									Ph: 323-881-4601 | Fx: 323-887-7286</small><br>
-									<small><a href="http://hildalsolis.org/contact/">Email Form</a></small> | <small><a href="http://hildalsolis.org/">Website</a></small></small>
-								</div><br>
-								<div class="social-media text-center">
-									<a href="https://www.facebook.com/hildasolis/"><img alt="facebook" src="images/facebook.png"></a> <a href="https://twitter.com/HildaSolis"><img alt="twitter" src="images/twitter.png"></a> <a href="https://www.instagram.com/hildalsolis/"><img alt="instagram" src="images/instagram.png"></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div><!--end media 2-->
-				<!--down button-->
-				<div class="text-center">
-					<a href="#state"><img alt="go down" src="images/button.png"></a>
-				</div><!--end of down button-->
-			</div>
-		</div>
-	</div><!--end local-->
-	<!--start state-->
-	<div id="state">
-		<div class="bg-state jumbotron jumbotron-fluid mb-0 vh-content">
-			<div class="container container-fluid">
-				<h2 class="text-center">STATE</h2>
-				<div class="container">
-					<!--media 1-->
-					<br>
-					<div class="d-flex flex-row justify-content-around flex-wrap p-3">
-						<div class="media">
-							<div class="media-left media-middle">
-								<img alt="Jerry Brown" class="media-object" src="images/jb.jpg">
-								<div class="media-body text-center">
-									<small><strong>Jerry Brown</strong><br></small> <small><strong>Governor of California</strong></small><br>
-									<small><small>c/o State Capitol | Suite 1173<br>
+									Ph: 323-881-4601 | Fx: 323-887-7286</small>
+                                <br>
+                                <small><a href="http://hildalsolis.org/contact/">Email Form</a></small> | <small><a href="http://hildalsolis.org/">Website</a></small></small>
+                            </div>
+                            <br>
+                            <div class="social-media text-center">
+                                <a href="https://www.facebook.com/hildasolis/"><img alt="facebook" src="images/facebook.png"></a>
+                                <a href="https://twitter.com/HildaSolis"><img alt="twitter" src="images/twitter.png"></a>
+                                <a href="https://www.instagram.com/hildalsolis/"><img alt="instagram" src="images/instagram.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end media 2-->
+                <!--down button-->
+                <div class="down-button text-center">
+                    <a href="#state"><img alt="go down" src="images/button.png"></a>
+                </div>
+                <!--end of down button-->
+            </div>
+        </div>
+    </div>
+    <!--end local-->
+    <!--start state-->
+    <div id="state" class="scroll">
+        <div class="bg-state jumbotron jumbotron-fluid mb-0 vh-content">
+            <div class="container container-fluid">
+                <h2 class="text-center">STATE</h2>
+                <div class="container">
+                    <!--media 1-->
+                    <br>
+                    <div class="d-flex flex-row justify-content-around flex-wrap p-3">
+                        <div class="media">
+                            <div class="media-left media-middle">
+                                <img alt="Jerry Brown" class="media-object" src="images/jb.jpg">
+                                <div class="media-body text-center">
+                                    <small><strong>Jerry Brown</strong><br></small> <small><strong>Governor of California</strong></small>
+                                    <br>
+                                    <small><small>c/o State Capitol | Suite 1173<br>
 									Sacramento, CA 95814<br>
-									Ph: 916-445-2841 | Fx: 916-558-3160<br></small> <small><a href="https://govnews.gov.ca.gov/gov39mail/mail.php">Email Form</a></small> | <small><a href="https://www.gov.ca.gov/home.php">Website</a></small></small><br>
-								</div><br>
-								<div class="social-media text-center">
-									<a href="https://www.facebook.com/jerrybrown"><img alt="facebook" src="images/facebook.png"></a> <a href="https://twitter.com/jerrybrowngov"><img alt="twitter" src="images/twitter.png"></a>
-								</div>
-							</div>
-						</div><!--end media 1-->
-						<!--media 2-->
-						<br>
-						<div class="d-flex flex-row flex-wrap justify-content-around p-3">
-							<div class="media">
-								<div class="media-left media-middle">
-									<img alt="Ed Hernandez" class="media-object" src="images/eh.jpg">
-									<div class="media-body text-center">
-										<small><strong>Ed Hernandez</strong><br></small> <small><strong>State Senator, 22th District</strong></small><br>
-										<small>State Capitol | Room 2080<br>
+									Ph: 916-445-2841 | Fx: 916-558-3160<br></small> <small><a href="https://govnews.gov.ca.gov/gov39mail/mail.php">Email Form</a></small> | <small><a href="https://www.gov.ca.gov/home.php">Website</a></small></small>
+                                    <br>
+                                </div>
+                                <br>
+                                <div class="social-media text-center">
+                                    <a href="https://www.facebook.com/jerrybrown"><img alt="facebook" src="images/facebook.png"></a>
+                                    <a href="https://twitter.com/jerrybrowngov"><img alt="twitter" src="images/twitter.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end media 1-->
+                        <!--media 2-->
+                        <br>
+                        <div class="media">
+                            <div class="media-left media-middle">
+                                <img alt="Ed Hernandez" class="media-object" src="images/eh.jpg">
+                                <div class="media-body text-center">
+                                    <small><strong>Ed Hernandez</strong><br></small> <small><strong>State Senator, 22th District</strong></small>
+                                    <br>
+                                    <small><small>State Capitol | Room 2080<br>
 										Sacramento, CA 95814<br>
 										Ph: 916-651-4022 | Fx: 916-651-4922<br>
 										<em>District Office</em><br>
 										100 S. Vincent, Suite 401, West Covina, CA 91790<br>
-										Ph: 626-430-2499</small><br>
-										<small><a href="http://sd22.senate.ca.gov/contact/email">Email Form</a></small> <small>|</small> <small><a href="http://sd22.senate.ca.gov/">Website</a></small><br>
-									</div><br>
-									<div class="social-media text-center">
-										<a href="https://www.facebook.com/DrEdHernandez"><img alt="facebook" src="images/facebook.png"></a> <a href="https://twitter.com/dredhernandez"><img alt="twitter" src="images/twitter.png"></a>
-									</div><br>
-								</div>
-							</div>
-						</div>
-					</div><!--end media 2-->
-					<!--down button-->
-					<div class="text-center">
-						<a href="#federal"><img alt="go down" src="images/button.png"></a>
-					</div><!--end of down button-->
-				</div>
-			</div>
-		</div>
-	</div><!--end state-->
-	<!--start federal-->
-	<div id="federal">
-		<div class="bg-federal jumbotron jumbotron-fluid mb-0 vh-content">
-			<h2 class="text-center">FEDERAL</h2>
-			<div class="container">
-				<!--media 1-->
-				<br>
-				<div class="d-flex flex-row justify-content-around flex-wrap p-3">
-					<div class="media">
-						<div class="media-left media-middle">
-							<img alt="Dianne Feinstein" class="media-object" src="images/df.jpg">
-							<div class="media-body text-center">
-								<small><strong>Dianne Feinstein</strong><br>
+										Ph: 626-430-2499</small>
+                                    <br>
+                                    <small><a href="http://sd22.senate.ca.gov/contact/email">Email Form</a></small> <small>|</small> <small><a href="http://sd22.senate.ca.gov/">Website</a></small></small>
+                                    <br>
+                                </div>
+                                <br>
+                                <div class="social-media text-center">
+                                    <a href="https://www.facebook.com/DrEdHernandez"><img alt="facebook" src="images/facebook.png"></a>
+                                    <a href="https://twitter.com/dredhernandez"><img alt="twitter" src="images/twitter.png"></a>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end media 2-->
+                    <!--down button-->
+                    <div class="text-center">
+                        <a href="#federal"><img alt="go down" src="images/button.png"></a>
+                    </div>
+                    <!--end of down button-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end state-->
+    <!--start federal-->
+    <div id="federal" class="scroll">
+        <div class="bg-federal jumbotron jumbotron-fluid mb-0 vh-content">
+            <h2 class="text-center">FEDERAL</h2>
+            <div class="container">
+                <!--media 1-->
+                <br>
+                <div class="d-flex flex-row justify-content-around flex-wrap p-3">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img alt="Dianne Feinstein" class="media-object" src="images/df.jpg">
+                            <div class="media-body text-center">
+                                <small><strong>Dianne Feinstein</strong><br>
 								<strong>United States Senator</strong><br>
 								<small>Senate Office Building<br>
 								Washington, D.C. 20510<br>
 								Ph: 202-224-3841 | Fx: 202-228-3954<br>
 								<em>Los Angeles Office</em><br>
 								11111 Santa Monica Blvd. Suite 915, Los Angeles, CA 90025<br>
-								Ph: 310-914-7300 | Fx: 310-914-7318</small><br>
-								<small><a href="https://www.feinstein.senate.gov/public/index.cfm/e-mail-me">Email Form</a></small> | <small><a href="http://www.feinstein.senate.gov/public/">Website</a></small><br></small>
-							</div><br>
-							<div class="social-media text-center">
-								<a href="https://www.facebook.com/DianneFeinstein"><img alt="facebook" src="images/facebook.png"></a> <a href="https://twitter.com/senfeinstein"><img alt="twitter" src="images/twitter.png"></a>
-							</div>
-						</div>
-					</div><!--end media 1-->
-					<!--media 2-->
-					<br>
-					<div class="d-flex flex-wrap justify-content-around flex-wrap p-3">
-						<div class="media">
-							<div class="media-left media-middle">
-								<img alt="Kamala Harris" class="media-object" src="images/kh.jpg">
-								<div class="media-body text-center">
-									<small><strong>Kamala Harris</strong><br>
+								Ph: 310-914-7300 | Fx: 310-914-7318</small>
+                                <br>
+                                <small><a href="https://www.feinstein.senate.gov/public/index.cfm/e-mail-me">Email Form</a></small> | <small><a href="http://www.feinstein.senate.gov/public/">Website</a></small>
+                                <br>
+                                </small>
+                            </div>
+                            <br>
+                            <div class="social-media text-center">
+                                <a href="https://www.facebook.com/DianneFeinstein"><img alt="facebook" src="images/facebook.png"></a>
+                                <a href="https://twitter.com/senfeinstein"><img alt="twitter" src="images/twitter.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end media 1-->
+                    <!--media 2-->
+                    <br>
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img alt="Kamala Harris" class="media-object" src="images/kh.jpg">
+                            <div class="media-body text-center">
+                                <small><strong>Kamala Harris</strong><br>
 									<strong>United States Senator</strong><br>
 									<small>Senate Office Building<br>
 									Washington, D.C. 20510<br>
 									<em>Los Angeles Office</em><br>
 									312 N. Spring St.Suite 1748, Los Angeles, CA 90012<br>
-									Ph: 213-894-5000 | Fx: 202-224-0357</small><br>
-									<small><a href="https://www.harris.senate.gov/content/contact-senator">Email Form</a></small> | <small><a href="http://www.kamalaharris.org/">Website</a></small><br></small>
-								</div><br>
-								<div class="social-media text-center">
-									<a href="https://www.facebook.com/KamalaHarris"><img alt="facebook" src="images/facebook.png"></a> <a href="https://twitter.com/SenKamalaHarris?ref_src=twsrc%5Etfw"><img alt="twitter" src="images/twitter.png"></a> <a href="https://www.instagram.com/kamalaharris/"><img alt="instagram" src="images/instagram.png"></a>
-								</div>
-							</div>
-						</div>
-					</div><!--end media 2-->
-					<!--media 3-->
-					<br>
-					<div class="d-flex flex-wrap justify-content-around flex-wrap p-3">
-						<div class="media">
-							<div class="media-left media-middle">
-								<img alt="Judy Chu" class="media-object" src="images/jc.jpg">
-								<div class="media-body text-center">
-									<small><strong>Judy Chu</strong><br>
+									Ph: 213-894-5000 | Fx: 202-224-0357</small>
+                                <br>
+                                <small><a href="https://www.harris.senate.gov/content/contact-senator">Email Form</a></small> | <small><a href="http://www.kamalaharris.org/">Website</a></small>
+                                <br>
+                                </small>
+                            </div>
+                            <br>
+                            <div class="social-media text-center">
+                                <a href="https://www.facebook.com/KamalaHarris"><img alt="facebook" src="images/facebook.png"></a>
+                                <a href="https://twitter.com/SenKamalaHarris?ref_src=twsrc%5Etfw"><img alt="twitter" src="images/twitter.png"></a>
+                                <a href="https://www.instagram.com/kamalaharris/"><img alt="instagram" src="images/instagram.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end media 2-->
+                    <!--media 3-->
+                    <br>
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img alt="Judy Chu" class="media-object" src="images/jc.jpg">
+                            <div class="media-body text-center">
+                                <small><strong>Judy Chu</strong><br>
 									<strong>Los Angeles County Board of Supervisors, 1st District</strong><br>
 									<small>United States Congress, 27th District<br>
 									U.S. House of Representatives<br>
@@ -233,44 +262,56 @@
 									Ph: 202-225-5464 | Fx: 202-225-5467<br>
 									<em>District Office</em><br>
 									527 S. Lake Ave, Suite 106, Pasadena, CA 91101<br>
-									Ph: 626-304-0110 | Fx: 626-304-0132</small><br>
-									<small><a href="https://chu.house.gov/contact">Email Form</a></small> | <small><a href="https://chu.house.gov/">Website</a></small><br></small>
-								</div><br>
-								<div class="social-media text-center">
-									<a href="https://www.facebook.com/HouseDemocrats"><img alt="facebook" src="images/facebook.png"></a> <a href="https://twitter.com/housedemocrats"><img alt="twitter" src="images/twitter.png"></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div><!--end media 3-->
-				<br>
-				<!--down button-->
-				<div class="text-center">
-					<a href="#end"><img alt="go down" src="images/button.png"></a>
-				</div><!--end of down button-->
-			</div>
-		</div>
-	</div><!--end federal-->
-	<!--start end-->
-	<div id="end">
-		<div class="bg-end jumbotron jumbotron-fluid mb-0">
-			<div class="container container-fluid">
-				<div class="text-center">
-					<a href="#welcome"><img alt="go all the way up" src="images/up-button.png"></a><br>
-				</div><br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<div class="container">
-					<h2 class="text-center">Thank you for visiting our site!</h2>
-				</div>
-			</div>
-		</div>
-	</div><!--end end-->
+									Ph: 626-304-0110 | Fx: 626-304-0132</small>
+                                <br>
+                                <small><a href="https://chu.house.gov/contact">Email Form</a></small> | <small><a href="https://chu.house.gov/">Website</a></small>
+                                <br>
+                                </small>
+                            </div>
+                            <br>
+                            <div class="social-media text-center">
+                                <a href="https://www.facebook.com/HouseDemocrats"><img alt="facebook" src="images/facebook.png"></a>
+                                <a href="https://twitter.com/housedemocrats"><img alt="twitter" src="images/twitter.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end media 3-->
+                <br>
+                <!--down button-->
+                <div class="text-center">
+                    <a href="#end"><img alt="go down" src="images/button.png"></a>
+                </div>
+                <!--end of down button-->
+            </div>
+        </div>
+    </div>
+    <!--end federal-->
+    <!--start end-->
+    <div id="end" class="scroll">
+        <div class="bg-end jumbotron jumbotron-fluid mb-0">
+            <div class="container container-fluid">
+                <div class="text-center">
+                    <a href="#welcome"><img alt="go all the way up" src="images/up-button.png"></a>
+                    <br>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="container">
+                    <h2 class="text-center">Thank you for visiting our site!</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end end-->
 </body>
+<script type="text/javascript" src="js/scripts.js"></script>
+
 </html>

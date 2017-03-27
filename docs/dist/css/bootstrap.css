@@ -9386,4 +9386,9 @@ body {
           justify-content: space-around;
   height: 600px;
 }
+
+@font-face {
+  font-family: bebas;
+  src: url(../fonts/bebas.TTF);
+}
 /*# sourceMappingURL=bootstrap.css.map */
