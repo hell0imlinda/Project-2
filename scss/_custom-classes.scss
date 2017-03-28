@@ -1,55 +1,42 @@
 // custom classes //
-
 body {
 	background: $gradient;
 }
-
-
-
 .bg-end {
 	height: 100vh;
 	background-size: cover;
-	}
-
+}
 .vh-content {
 	background-size: cover;
 	min-height: 100vh;
-
 }
-
-
 .aligncenter {
-    clear: both;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
-
-
 .ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
-
-.btn-container{
-	margin-left:300px;
-
+.btn-container {
+	margin-left: 300px;
 }
-
-
 .flex {
-  background: #eaeaea;
-  display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-around;
-  height: 600px;
+	background: #eaeaea;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 600px;
 }
-
-
 @font-face {
-	font-family:bebas;
+	font-family: bebas;
 	src: url(../fonts/bebas.TTF)
+}
+.judy {
+	margin-right: 10px;
 }
